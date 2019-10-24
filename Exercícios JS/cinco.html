@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Fibonacci</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            var x, n1=1, n2=0, aux, i=0
+            x=parseInt(prompt("Digite até onde quer a sequência:"))
+            do{
+                document.write(n2+" ")
+                aux=n1
+                n1=n1+n2
+                n2=aux
+                i++
+                
+            }while(n1<=x)
+        </script>
+    </body>
+</html>

@@ -1,0 +1,41 @@
+body{
+    background: black;
+}
+.title{
+    color: white;
+    margin-top: 8%;
+    text-align: center;
+    font-family: Berlin Sans FB;
+}
+
+.subtitle{
+    color: white;
+    text-align: center;
+    font-family: Berlin Sans FB;
+    margin-bottom: 5%;
+}
+
+ul{
+    margin-left: 44.5%;
+}
+
+li{
+    color: white;
+    text-decoration: none;
+    list-style: square;
+    font-family: Eras ITC;
+    margin-bottom: 1%;
+    text-decoration: none;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.txt{
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    font-family: Berlin Sans FB; 
+}

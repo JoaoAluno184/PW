@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <h1 class="ext">Seu Login</h1>
+        <div class="lgn">
+            <div id="p">
+                <script type="text/javascript">
+                    var x, l, aux, sob;
+                    x=(prompt("Digite nome e sobrenome :"))
+					aux=x.indexOf(" ")
+                    document.write("Nome Digitado : "+x+"<br>")
+                    l=x.charAt(0)
+                    sob=x.slice(aux+1, x.length)
+                    sob=sob.toLowerCase()
+					l=l.toLowerCase()
+                    document.write("Seu login é : "+l+"."+sob+"<br>")
+                </script>
+            </div>
+        </div>
+        <a class="voltar" href="index.html"><h1 class="voltar">Retorne</h1></a>
+    </body>
+</html>
